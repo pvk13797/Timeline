@@ -1,0 +1,29 @@
+@media only screen and (max-width: 767px) {
+
+    .timeline::after {
+        left: 31px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px 25px 10px 75px;
+    }
+    .container::before {
+        left: 40px;
+    }
+    .left::before{
+        transform: rotate(360deg);
+    }
+    .left::after,
+    .right::after {
+        left: 22px;
+    }
+    .right {
+        left: 0%;
+    }
+    .timeline .container.left > .content{
+        margin: 0 auto 0 0;
+    }
+    .timeline .container.left > .histroy p{
+        text-align: left;
+    }
+}
